@@ -1,0 +1,63 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html {
+  height: 100%;
+  background-color: bisque;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4{
+  text-align: center;
+}
+
+h2{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+input{
+  width: 10%;
+  float: left;
+  margin-left: 36.25%;
+}
+
+label{
+  display: inline-block;
+  width: 4%;
+  margin: 0 0.5%;
+  float: left;
+}
+
+select{
+  width: 10%;
+  float: left;
+  margin-right: 36.25%;
+}
+
+button{
+  margin: 1% 0%;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
